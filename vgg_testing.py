@@ -86,7 +86,7 @@ for i in range(10):
 # # detection test
 # img = image_utils.load_img('test/1.png', target_size=(32, 32))
 # img = img.resize((32, 32), Image.ANTIALIAS)
-# # img = img.convert('L')  #转换为黑白
+# # img = img.convert('L')  # convert to black and white
 # img = image_utils.img_to_array(img)
 #
 # img = abs(255 - img)
