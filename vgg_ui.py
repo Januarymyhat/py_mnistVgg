@@ -55,7 +55,7 @@ class VGGUI(QWidget):
         # Clear button
         self.btn_clear = QPushButton("Clear", self)
         self.btn_clear.setGeometry(350, 810, 80, 35)
-        self.btn_clear.clicked.connect(self.btn_clear_on_clicked)  # 绑定多个函数
+        self.btn_clear.clicked.connect(self.btn_clear_on_clicked)
 
         # Eraser mode
         self.cbtn_eraser = QCheckBox("Eraser")
