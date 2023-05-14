@@ -1,4 +1,4 @@
-from vgg_ui import MainWidget
+from vgg_ui import VGGUI
 from PyQt5.QtWidgets import QApplication
 
 import sys
@@ -7,9 +7,9 @@ import sys
 def main():
     app = QApplication(sys.argv)
 
-    mainWidget = MainWidget()  # 新建一个主界面
-    mainWidget.show()  # 显示主界面
-    exit(app.exec_())  # 进入消息循环
+    mainWidget = VGGUI()  # Create a new main screen
+    mainWidget.show()  # Display the main screen
+    exit(app.exec_())  # Enter the message loop
 
 
 if __name__ == '__main__':
